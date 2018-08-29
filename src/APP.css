@@ -1,0 +1,84 @@
+.movie-app {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.movie-app-header {
+  display: flex;
+  justify-content: space-between;
+}
+.name-filter {
+  height: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.filter-text {
+  flex: 1;
+  border: 2px solid rgb(182, 32, 32);
+  border-radius: 5px;
+}
+.filter-button {
+  background-color: ;
+  padding: 0 10px;
+  border: 2px solid rgb(182, 32, 32);
+  border-radius: 5px;
+}
+.rating-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: center;
+}
+.rating-filter-text {
+  font-size: 0.8em;
+}
+.movie-app-main {
+  margin-top: 20px;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie-card,
+.new-movie-card {
+  border: 2px solid rgb(228, 182, 182);
+  width: 200px;
+  height: 300px;
+  position: relative;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.movie-rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+}
+span {
+  color: rgb(72, 0, 255);
+}
+.movie-image {
+  background-image: url(https://www.mearto.com/assets/no-image-83a2b680abc7af87cfff7777d0756fadb9f9aecd5ebda5d34f8139668e0fc842.png);
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.movie-description {
+  border-top: 2px solid blueviolet;
+  text-align: center;
+  padding: 10px;
+  color: red;
+}
+.new-movie-card {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
